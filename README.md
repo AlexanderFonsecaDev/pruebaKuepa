@@ -1,4 +1,4 @@
-#PRUEBA DESARROLLADOR FULL STACK JAVASCRIPT
+# PRUEBA DESARROLLADOR FULL STACK JAVASCRIPT
 
 Este proyecto está hecho con laravel 7y vue. Para poder utilizarlo es necesario tener instaladas las siguientes dependencias: 
 
