@@ -26,6 +26,38 @@
                 </div>
 
                 <div class="form-group row">
+                    <label for="user" class="col-md-4 col-form-label text-md-right">Usuario</label>
+
+                    <div class="col-md-6">
+                        <input id="user" type="text" placeholder="Dante" class="form-control @error('user') is-invalid @enderror"
+                               name="user" value="{{ old('user') }}" required autocomplete="user" autofocus>
+
+                        @error('name')
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="type" class="col-md-4 col-form-label text-md-right">Tipo</label>
+
+                    <div class="col-md-6">
+                        <select class="form-control form-control-user js-example-basic-single" id="type" name="type">
+                            <option value="estudiante">Estudiante</option>
+                            <option value="moderador">Moderador</option>
+                        </select>
+
+                        @error('name')
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="form-group row">
                     <label for="email" class="col-md-4 col-form-label text-md-right">Correo electrónico</label>
 
                     <div class="col-md-6">

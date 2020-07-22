@@ -24,3 +24,5 @@ El entorno de desarrollo que se utilizó para este proyecto es <a href="https://
 3. Luego ejecutamos el siguiente comando composer install --optimize-autoloader --no-dev
 4. Una vez termine de instalarse nuestras dependencias ejecutamos el comando php artisan key:generate
 5. Después debemos instalar nuestras dependencias para vue atrás ves del comando npm install && run dev
+6. Creamos una base de datos con el nombre kuepachat. Para este proyecto se usó una base de datos mysql
+7. Luego ejecutamos las migraciones con el comando php artisan migrate
