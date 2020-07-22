@@ -26,3 +26,4 @@ El entorno de desarrollo que se utilizó para este proyecto es <a href="https://
 5. Después debemos instalar nuestras dependencias para vue atrás ves del comando npm install && run dev
 6. Creamos una base de datos con el nombre kuepachat. Para este proyecto se usó una base de datos mysql
 7. Luego ejecutamos las migraciones con el comando php artisan migrate
+8. Ejecutamos en la terminal el comando php artisan serve y nos dirigimos a un navegador. Dentro de la barra de búsqueda colocamos localhost:8000
