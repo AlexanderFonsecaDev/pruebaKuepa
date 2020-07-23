@@ -27,3 +27,11 @@ El entorno de desarrollo que se utilizó para este proyecto es <a href="https://
 6. Creamos una base de datos con el nombre kuepachat. Para este proyecto se usó una base de datos mysql
 7. Luego ejecutamos las migraciones con el comando php artisan migrate
 8. Ejecutamos en la terminal el comando php artisan serve y nos dirigimos a un navegador. Dentro de la barra de búsqueda colocamos localhost:8000
+
+## Servicio de pusher
+
+Debemos crear una cuenta en la página <a href="https://pusher.com/">pusher</a>  y crear un canal de comunicación.Nos vamos a la sección crear app , le damos un nombre a nuestra app, seleccionamos un clúster, en este caso usamos us2 y damos crear app.
+
+Vamos a nuestra app recién creada y damos click en las app keys , las copiamos y las cambiamos en nuestro archivo de configuración .env.
+
+Terminamos nuestra configuración en la sección de app settings y habilitamos client events
